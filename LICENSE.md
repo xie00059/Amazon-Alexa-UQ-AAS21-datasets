@@ -23,4 +23,11 @@ This is not a license. It is simply a handy reference for understanding the ODC-
 
 ================================================
     
-Please cite this or related works as appropriate in follow-up publications.
+Please cite the following work if you use our datasets.  
+  @InProceedings{ADMA2022, 
+  author="Xie, Fuman and Zhang, Yanjun and Wei, Hanlin and Bai, Guangdong", 
+  title="UQ-AAS21: A Comprehensive Dataset of Amazon Alexa Skills", 
+  booktitle="Advanced Data Mining and Applications (ADMA)", 
+  year="2022", 
+  pages="159--173", 
+  } 
