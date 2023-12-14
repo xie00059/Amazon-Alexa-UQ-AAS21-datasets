@@ -1,8 +1,8 @@
-# Amazon-Alexa-UQ-AAS21-datasets
+# Amazon-Alexa-UQAAS-datasets
 
-Amazon Alexa UQ-AAS21 Datasets Modified 28/10/2021
+Amazon Alexa UQAAS Datasets updated 14/12/2023
 
-================================================ Amazon Alexa UQ-AAS21 Datasets is made available under the Open Data Commons Attribution License: http://opendatacommons.org/licenses/by/1.0/.
+================================================ Amazon Alexa UQAAS Datasets is made available under the Open Data Commons Attribution License: http://opendatacommons.org/licenses/by/1.0/.
 
 The following is a human-readable summary of the ODC-BY 1.0 license. Please see the disclaimer below.
 
