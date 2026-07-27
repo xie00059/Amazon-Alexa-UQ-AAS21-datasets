@@ -1,30 +1,52 @@
-# Amazon-Alexa-UQAAS-datasets
+# UQ-AAS21 — A Comprehensive Dataset of Amazon Alexa Skills
 
-Amazon Alexa UQAAS Datasets updated 14/12/2023
+UQ-AAS21 is a large-scale dataset covering **65,195 Amazon Alexa skills** crawled
+from the Amazon Alexa skill store (data up to May 2021). It captures **16
+attributes per skill**, including metadata, ratings, permissions, and privacy
+policy links, and was built to give the research community a comprehensive,
+well-formatted, publicly available resource where none previously existed.
 
-================================================ Amazon Alexa UQAAS Datasets is made available under the Open Data Commons Attribution License: http://opendatacommons.org/licenses/by/1.0/.
+The dataset underpins follow-up studies, including large-scale privacy
+compliance analyses (ASE 2022).
 
-The following is a human-readable summary of the ODC-BY 1.0 license. Please see the disclaimer below.
+## What's included
 
-You are free:
+The dataset is split into two parts (16 attributes total; skill name appears in both):
 
-To Share: To copy, distribute and use the database.
-To Create: To produce works from the database.
-To Adapt: To modify, transform and build upon the database.
-As long as you:
+**UQ-AAS21-I: basic skill information (11 attributes):**
+skill name, page path, developer, supported languages, average rating, number of
+ratings, price, in-skill purchase, wake-up words, icon, and category.
 
-Attribute: You must attribute any public use of the database, or works produced from the database, in the manner specified in the license. For any use or redistribution of the database, or works produced from it, you must make clear to others the license of the database and keep intact any notices on the original database.
-Disclaimer
+**UQ-AAS21-II: privacy-related information (6 attributes):**
+skill path, requested permissions (12 subtypes, e.g. email address, location,
+full name), invocation name, description, developer privacy policy (DPP) link,
+and developer terms-of-use (DTOU) link.
 
-This is not a license. It is simply a handy reference for understanding the ODC-BY 1.0 — it is a human-readable expression of some of its key terms. This document has no legal value, and its contents do not appear in the actual license. Read the full ODC-BY 1.0 license text for the exact terms that apply.
+All data is publicly available information only, and no user-identifying or private
+data was collected. Data is pre-processed and formatted (per-category tables,
+easily loadable into pandas).
 
-================================================
+## Citation
 
-Please cite the following work if you use our datasets.  
-  @InProceedings{ADMA2022, 
-  author="Xie, Fuman and Zhang, Yanjun and Wei, Hanlin and Bai, Guangdong", 
-  title="UQ-AAS21: A Comprehensive Dataset of Amazon Alexa Skills", 
-  booktitle="Advanced Data Mining and Applications (ADMA)", 
-  year="2022", 
-  pages="159--173", 
-  } 
+If you use this dataset, please cite:
+
+```bibtex
+@InProceedings{UQAAS21_ADMA2021,
+  author    = {Xie, Fuman and Zhang, Yanjun and Wei, Hanlin and Bai, Guangdong},
+  title     = {UQ-AAS21: A Comprehensive Dataset of Amazon Alexa Skills},
+  booktitle = {Advanced Data Mining and Applications (ADMA)},
+  year      = {2021},
+  pages     = {159--173}
+}
+```
+
+## License
+
+Released under the **Open Data Commons Attribution License (ODC-BY 1.0)**:
+http://opendatacommons.org/licenses/by/1.0/
+
+You are free to share, create, and adapt from the database, provided you
+attribute it as specified. For any public use or redistribution, you must make
+the license clear and keep intact any notices on the original database. See the
+full [ODC-BY 1.0 license text](http://opendatacommons.org/licenses/by/1.0/) for
+the exact terms.
